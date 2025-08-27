@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HUMAN LINK RESEARCH SOLUTIONS (HLRS) — Human Link Research Solutions</title>
+  <meta name="description" content="HLRS delivers data-driven research and digital solutions. Contact us for a free consultation." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="container nav">
+    <a class="brand" href="#home">HUMAN LINK RESEARCH SOLUTIONS (HLRS)</a>
+    <nav class="menu" id="menu">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#testimonials">Testimonials</a>
+      <a class="btn" href="#contact">Contact</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle Menu">☰</button>
+  </header>
+
+  <section id="home" class="hero container">
+    <div class="hero-text">
+      <h1>We connect insights, people, and performance for smarter growth.</h1>
+      <p>From research to execution, we deliver data-driven solutions that convert insights into outcomes.</p>
+      <div class="cta-row">
+        <a class="btn" href="#contact">Get a Free Quote</a>
+        <a class="link" href="#work">See Our Work →</a>
+      </div>
+      <ul class="badges">
+        <li>📊 Research-driven</li>
+        <li>⚡ Fast & SEO-friendly</li>
+        <li>📱 Mobile-first</li>
+      </ul>
+    </div>
+    <div class="hero-visual">
+      <img src="assets/hero-placeholder.svg" alt="Illustration: research & strategy">
+    </div>
+  </section>
+
+  <section id="services" class="section container">
+    <h2 class="section-title">Services</h2>
+    <div class="grid3">
+      <article class="card">
+        <h3>Research & Insights</h3>
+        <p>Market, user, and competitive research to guide decisions.</p>
+      </article>
+      <article class="card">
+        <h3>Strategy & Execution</h3>
+        <p>Go-to-market strategy, content, and digital rollout.</p>
+      </article>
+      <article class="card">
+        <h3>Web & Data Presence</h3>
+        <p>Lightweight web pages, basic SEO, and analytics setup.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="about" class="section container">
+    <h2 class="section-title">About Us</h2>
+    <div class="about">
+      <p><strong>HLRS</strong> is a research-driven team helping organizations turn insights into outcomes with clear strategy and fast execution.</p>
+      <ul class="list">
+        <li>Evidence-first decision making</li>
+        <li>Turnaround in days, not months</li>
+        <li>Transparent pricing</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="work" class="section container">
+    <h2 class="section-title">Recent Work</h2>
+    <div class="grid3">
+      <figure class="work-card">
+        <img src="assets/thumb1.svg" alt="Project 1">
+        <figcaption>Project One — Research Dashboard</figcaption>
+      </figure>
+      <figure class="work-card">
+        <img src="assets/thumb2.svg" alt="Project 2">
+        <figcaption>Project Two — Strategy Microsite</figcaption>
+      </figure>
+      <figure class="work-card">
+        <img src="assets/thumb3.svg" alt="Project 3">
+        <figcaption>Project Three — SME Website</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="testimonials" class="section container">
+    <h2 class="section-title">What Clients Say</h2>
+    <div class="grid2">
+      <blockquote class="quote">
+        “Their research clarity and speed changed our roadmap.”
+        <cite>— R. Sharma, Cafe Owner</cite>
+      </blockquote>
+      <blockquote class="quote">
+        “Professional, fast, and friendly. Tangible results in weeks.”
+        <cite>— N. Khan, Fitness Studio</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section id="contact" class="section container">
+    <h2 class="section-title">Contact</h2>
+    <form class="contact" name="contact" onsubmit="return submitForm(event)">
+      <div class="grid2">
+        <label>Full Name
+          <input type="text" name="name" placeholder="Your name" required>
+        </label>
+        <label>Email
+          <input type="email" name="email" placeholder="you@example.com" required>
+        </label>
+      </div>
+      <label>Message
+        <textarea name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+      </label>
+      <button class="btn" type="submit">Send Message</button>
+      <p class="form-note">This demo uses a JavaScript alert. For real forms, connect Formspree or your backend.</p>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> HUMAN LINK RESEARCH SOLUTIONS (HLRS). All rights reserved.</p>
+      <a class="link" href="mailto:Krishna.singh@hlrs.co.in">Krishna.singh@hlrs.co.in</a>
+    </div>
+  </footer>
+</body>
+</html>
